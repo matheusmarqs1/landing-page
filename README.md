@@ -12,6 +12,7 @@ The goal of this landing page is to be simple yet functional. It’s a static pa
 
 ## ✨ Features
 Responsive Design: The page adapts to different screen sizes on desktop.
+
 Flexbox in Action: The entire layout is built with flexbox, paying attention to the distribution of extra space and the alignment of items in rows and columns.
 
 ## 🛠️ Technologies Used
