@@ -1,4 +1,4 @@
-# Landing Page 🌟
+# 🌟 Landing Page 
 This repository contains the code for a static landing page, built with care and attention to detail using only HTML and CSS.
 
 If you're looking to learn or explore how to create a responsive layout with Flexbox, this is a great starting point!
