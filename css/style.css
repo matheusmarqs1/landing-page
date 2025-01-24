@@ -108,7 +108,7 @@ button{
     margin-bottom: 40px;
 }
 
-.body{
+.information{
     text-align: center;
 }
 
@@ -117,6 +117,7 @@ button{
     justify-content: center;
     gap: 52px;
     flex-wrap: wrap;
+    margin-bottom: 70px;
 }
 
 .info{
@@ -124,5 +125,33 @@ button{
 }
 
 .text{
-    color: #666;
+    color: #333;
+}
+
+/* quote section */
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    align-items: center;
+    background-color: #E5E7EB;
+
+    padding: 80px;
+}
+
+.feedback-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #495057;
+    
+}
+
+.customer{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20rem;
+    
+
 }
