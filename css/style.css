@@ -26,9 +26,10 @@ ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 20px;
     flex-wrap: wrap;
-    flex: 1;
+    padding: 10px 20px;
+    max-width: 100%; 
+    overflow: hidden;
 }
 
 a{
@@ -42,6 +43,7 @@ a{
     color: #F9FAF8;
     font-size: 24px;
   }
+  
 
 /*           HERO SECTION                                              */
 .hero{
@@ -80,6 +82,7 @@ a{
 
 button{
     cursor: pointer;
+    font-weight: 900;
     padding: 8px 16px;
     border-radius: 8px;
     background: royalblue;
@@ -117,7 +120,7 @@ button{
     justify-content: center;
     gap: 52px;
     flex-wrap: wrap;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .info{
@@ -128,15 +131,17 @@ button{
     color: #333;
 }
 
-/* quote section */
+/* feedback section */
 
 .feedback{
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    height: auto;
+
     gap:40px;
     align-items: center;
     background-color: #E5E7EB;
-
     padding: 80px;
 }
 
@@ -152,6 +157,46 @@ button{
     font-weight: bold;
     color: black;
     margin-left: 20rem;
-    
-
+    min-width: 285px;
 }
+
+/* ADVISE SECTION */
+
+.advice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10vh; 
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 80px;
+    padding: 20px;
+    gap:10px;
+    max-width: 800px;
+    margin-left: auto;              
+    margin-right: auto;;
+    background-color: royalblue;
+}
+.ad-title{
+    color: #F9FAF8;
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+
+.ad-body{
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+
+.advice button{
+    cursor: pointer;
+    font-weight: 800;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border:3px solid white;
+    color: white;
+}
+
